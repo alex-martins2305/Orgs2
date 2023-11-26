@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Orgs2</string>
+    <string name="title_activity_formulario_produto">FormularioProdutoActivity</string>
 </resources>

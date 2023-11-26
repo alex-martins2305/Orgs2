@@ -1,27 +1,13 @@
 package br.com.alexsoftwares.orgs2.ui.activity
 
 import android.app.Activity
-import android.graphics.ColorSpace.Rgb
 import android.os.Bundle
-import android.view.View
-import android.widget.TextView
 import android.widget.Toast
-import androidx.activity.ComponentActivity
-import androidx.activity.compose.setContent
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import br.com.alexsoftwares.orgs2.R
-import br.com.alexsoftwares.orgs2.R.id
 import br.com.alexsoftwares.orgs2.model.Produto
 import br.com.alexsoftwares.orgs2.ui.recyclerview.adapter.ListaProdutosAdapter
-import br.com.alexsoftwares.orgs2.ui.theme.Orgs2Theme
 import java.math.BigDecimal
 
 class MainActivity : Activity() {
