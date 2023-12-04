@@ -69,15 +69,15 @@
         </EditText>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/textField"
+            android:id="@+id/nome2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@id/produto_item_foto"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_margin="16dp"
-            android:hint="Nome"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            android:hint="Nome">
+<!--            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">-->
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -96,7 +96,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/produto_item_valor">
+            app:layout_constraintTop_toBottomOf="@id/nome2">
         </Button>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
